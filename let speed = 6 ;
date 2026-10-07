@@ -1,0 +1,139 @@
+background: #4caf50;
+
+            border: 3px solid #222;
+
+            bottom: 0;
+
+            z-index: 1;
+        }
+
+        .leg1 {
+            left: 15px;
+        }
+
+        .leg2 {
+            left: 38px;
+        }
+
+        .dino-tail {
+            position: absolute;
+
+            width: 25px;
+            height: 15px;
+
+            left: -8px;
+            top: 30px;
+
+            background: #4caf50;
+
+            border-left: 3px solid #222;
+            border-bottom: 3px solid #222;
+
+            transform: skewX(-25deg);
+        }
+
+
+        /* CACTUS */
+
+        .cactus {
+            position: absolute;
+
+            bottom: 65px;
+
+            left: 100%;
+
+            width: 34px;
+            height: 65px;
+
+            z-index: 5;
+
+            background: #2e8b57;
+
+            border: 3px solid #222;
+
+            border-radius: 5px;
+        }
+
+        .cactus::before {
+            content: "";
+
+            position: absolute;
+
+            width: 18px;
+            height: 35px;
+
+            left: -17px;
+            top: 22px;
+
+            background: #2e8b57;
+
+            border: 3px solid #222;
+
+            border-right: none;
+
+            border-radius: 12px 0 0 12px;
+        }
+
+        .cactus::after {
+            content: "";
+
+            position: absolute;
+
+            width: 18px;
+            height: 28px;
+
+            right: -17px;
+            top: 8px;
+
+            background: #2e8b57;
+
+            border: 3px solid #222;
+
+            border-left: none;
+
+            border-radius: 0 12px 12px 0;
+        }
+
+
+        /* THÔNG BÁO */
+
+        #message {
+            position: absolute;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+
+            width: 90%;
+
+            text-align: center;
+
+            z-index: 30;
+
+            font-weight: 800;
+
+            font-size: clamp(25px, 5vw, 42px);
+
+            color: #222;
+
+            text-shadow:
+                0 2px 0 white;
+        }
+
+        #message small {
+            display: block;
+
+            margin-top: 14px;
+
+            font-size: clamp(14px, 2.5vw, 20px);
+
+            font-weight: normal;
+
+            line-height: 1.5;
+        }
+
+
+        /* NÚT */
+
+        .
